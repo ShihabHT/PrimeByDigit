@@ -5,7 +5,6 @@ import time
 maxLength = 7
 
 while True:
-    # print(colored("hello", 'green'),colored("world", 'magenta', on_color=None, attrs=['bold', 'blink']))
     digitLength = int(input("Enter the length of the prime number you want to find\n"))
     if maxLength >= digitLength > 0:
         break
